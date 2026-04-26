@@ -15,6 +15,15 @@ export type PantoneStyle =
   | 'Emerald'
   | 'TangerineTango';
 
+export type WowEffect = 
+  | 'none'
+  | 'particles'
+  | 'scanner'
+  | 'glitch'
+  | 'aura'
+  | 'liquid'
+  | 'cube';
+
 export type Language = 'EN' | 'ZH';
 
 export type PipelineStep = 1 | 2 | 3 | 4;
@@ -41,6 +50,7 @@ export interface LLMFeatureConfig {
 
 export interface AppSettings {
   apiKey: string;
+  selectedWowEffect: WowEffect;
   features: {
     step1: LLMFeatureConfig;
     step2: LLMFeatureConfig;

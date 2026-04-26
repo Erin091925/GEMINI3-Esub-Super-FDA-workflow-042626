@@ -67,6 +67,16 @@ export const TRANSLATIONS = {
     model: 'Model Selection',
     prompt: 'System Prompt',
     timeline: 'State Lineage (DAG)',
+    wowEffect: 'Visual Celebration',
+    wowEffects: {
+      none: 'None (Standard)',
+      particles: 'Quantum Particles',
+      scanner: 'Deep Pulse Scanner',
+      glitch: 'Reality Glitch',
+      aura: 'Bioluminescent Aura',
+      liquid: 'Fluid Dynamics',
+      cube: 'Hypercube Projection'
+    }
   },
   ZH: {
     title: 'FDA 510(k) 審查工作室 v3.0',
@@ -99,5 +109,15 @@ export const TRANSLATIONS = {
     model: '模型選擇',
     prompt: '系統提示詞',
     timeline: '狀態血統 (DAG)',
+    wowEffect: '視覺慶祝特效',
+    wowEffects: {
+      none: '無 (標準)',
+      particles: '量子粒子',
+      scanner: '深度脈衝掃描',
+      glitch: '現實碎片引力',
+      aura: '生物螢光光環',
+      liquid: '流體動力學',
+      cube: '超立方體投影'
+    }
   },
 };
